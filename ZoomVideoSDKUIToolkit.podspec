@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZoomVideoSDKUIToolkit'
-  s.version          = '0.0.1-alpha'
+  s.version          = '0.0.2-alpha'
   s.summary          = 'The Zoom Video SDK UI toolkit is a prebuilt video chat user interface powered by the Zoom Video SDK'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.authors          = 'Zoom Video Communications, Inc.'
   s.source           = { :git => 'git@github.com:gonativeio/videosdk-ui-toolkit-ios.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '13.0'
 
   s.ios.vendored_frameworks = 'ZoomVideoSDKUIToolkit.xcframework'
 
