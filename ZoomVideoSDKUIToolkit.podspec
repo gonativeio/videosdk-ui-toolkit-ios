@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZoomVideoSDKUIToolkit'
-  s.version          = '0.0.2-alpha'
+  s.version          = '0.0.3-alpha'
   s.summary          = 'The Zoom Video SDK UI toolkit is a prebuilt video chat user interface powered by the Zoom Video SDK'
 
   s.description      = <<-DESC
@@ -20,7 +20,5 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.ios.vendored_frameworks = 'ZoomVideoSDKUIToolkit.xcframework'
-
-  s.dependency 'ZoomVideoSDK'
+  s.ios.vendored_frameworks = ['ZoomVideoSDKUIToolkit.xcframework', 'ZoomVideoSDK.xcframework']
 end
